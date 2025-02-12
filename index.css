@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light background color */
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333; /* Dark background for header */
+    color: #fff;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Dishes Section */
+.dishes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 20px;
+}
+
+.dish {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+}
+
+.dish img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.dish h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.dish p {
+    font-size: 1em;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
